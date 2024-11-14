@@ -1,0 +1,1016 @@
+<pre>root@lebahieu22ns018:/home/ubuntu# ls /home/ubuntu
+<font color="#3465A4"><b>Desktop</b></font>  <font color="#3465A4"><b>Documents</b></font>  <font color="#3465A4"><b>Downloads</b></font>  <font color="#3465A4"><b>Music</b></font>  <font color="#3465A4"><b>Pictures</b></font>  <font color="#3465A4"><b>Public</b></font>  <font color="#3465A4"><b>Templates</b></font>  <font color="#3465A4"><b>Videos</b></font>
+root@lebahieu22ns018:/home/ubuntu# hostnamectl
+   Static hostname: lebahieu22ns018
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 3f4a099f12a349dba90c31527e5c37f8
+           Boot ID: ec70fce42d0a44ad897eed8af45698b0
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.4 LTS
+            Kernel: Linux 5.13.0-30-generic
+      Architecture: x86-64
+root@lebahieu22ns018:/home/ubuntu# ls /home/ubuntu/Downloads/
+<font color="#3465A4"><b>chatapp</b></font>  <font color="#CC0000"><b>chatapp.zip</b></font>
+root@lebahieu22ns018:/home/ubuntu# mv /home/ubuntu/Downloads/chatapp /var/www
+root@lebahieu22ns018:/home/ubuntu# ls /var/www
+chatapp_db.sql  home.php   <font color="#3465A4"><b>js</b></font>         update_profile.php
+chat.php        <font color="#3465A4"><b>images</b></font>     login.php  <font color="#3465A4"><b>uploaded_img</b></font>
+<font color="#3465A4"><b>css</b></font>             index.php  <font color="#3465A4"><b>php</b></font>
+root@lebahieu22ns018:/home/ubuntu# apt update
+Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [128 kB]
+Get:2 http://security.ubuntu.com/ubuntu focal-security/main i386 Packages [834 kB]
+Hit:3 http://us.archive.ubuntu.com/ubuntu focal InRelease<font color="#C4A000">                     </font>
+Get:4 http://us.archive.ubuntu.com/ubuntu focal-updates InRelease [128 kB]
+Get:5 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [3,302 kB]
+Get:6 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [484 kB]
+Get:7 http://security.ubuntu.com/ubuntu focal-security/main amd64 DEP-11 Metadata [65.3 kB]
+Get:8 http://security.ubuntu.com/ubuntu focal-security/main DEP-11 48x48 Icons [24.2 kB]
+Get:9 http://security.ubuntu.com/ubuntu focal-security/main DEP-11 64x64 Icons [42.9 kB]
+Get:10 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [14.3 kB]
+Get:11 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [3,247 kB]
+Get:12 http://us.archive.ubuntu.com/ubuntu focal-backports InRelease [128 kB] 
+Get:13 http://security.ubuntu.com/ubuntu focal-security/restricted i386 Packages [38.6 kB]
+Get:14 http://security.ubuntu.com/ubuntu focal-security/restricted Translation-en [456 kB]
+Get:15 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 DEP-11 Metadata [212 B]
+Get:16 http://security.ubuntu.com/ubuntu focal-security/restricted DEP-11 48x48 Icons [29 B]
+Get:17 http://security.ubuntu.com/ubuntu focal-security/restricted DEP-11 64x64 Icons [29 B]
+Get:18 http://security.ubuntu.com/ubuntu focal-security/restricted DEP-11 64x64@2 Icons [29 B]
+Get:19 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 c-n-f Metadata [548 B]
+Get:20 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [1,014 kB]
+Get:21 http://security.ubuntu.com/ubuntu focal-security/universe i386 Packages [682 kB]
+Get:22 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [3,671 kB]
+Get:23 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [214 kB]
+Get:24 http://security.ubuntu.com/ubuntu focal-security/universe amd64 DEP-11 Metadata [160 kB]
+Get:25 http://security.ubuntu.com/ubuntu focal-security/universe DEP-11 48x48 Icons [95.4 kB]
+Get:26 http://security.ubuntu.com/ubuntu focal-security/universe DEP-11 64x64 Icons [166 kB]
+Get:27 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [21.4 kB]
+Get:28 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [24.8 kB]
+Get:29 http://security.ubuntu.com/ubuntu focal-security/multiverse i386 Packages [7,204 B]
+Get:30 http://security.ubuntu.com/ubuntu focal-security/multiverse Translation-en [5,968 B]
+Get:31 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 DEP-11 Metadata [940 B]
+Get:32 http://security.ubuntu.com/ubuntu focal-security/multiverse DEP-11 48x48 Icons [1,867 B]
+Get:33 http://security.ubuntu.com/ubuntu focal-security/multiverse DEP-11 64x64 Icons [2,497 B]
+Get:34 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 c-n-f Metadata [540 B]
+Get:35 http://us.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages [1,052 kB]
+Get:36 http://us.archive.ubuntu.com/ubuntu focal-updates/main Translation-en [562 kB]
+Get:37 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 DEP-11 Metadata [276 kB]
+Get:38 http://us.archive.ubuntu.com/ubuntu focal-updates/main DEP-11 48x48 Icons [63.9 kB]
+Get:39 http://us.archive.ubuntu.com/ubuntu focal-updates/main DEP-11 64x64 Icons [102 kB]
+Get:40 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [17.8 kB]
+Get:41 http://us.archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [3,367 kB]
+Get:42 http://us.archive.ubuntu.com/ubuntu focal-updates/restricted i386 Packages [39.9 kB]
+Get:43 http://us.archive.ubuntu.com/ubuntu focal-updates/restricted Translation-en [471 kB]
+Get:44 http://us.archive.ubuntu.com/ubuntu focal-updates/restricted amd64 DEP-11 Metadata [212 B]
+Get:45 http://us.archive.ubuntu.com/ubuntu focal-updates/restricted DEP-11 48x48 Icons [29 B]
+Get:46 http://us.archive.ubuntu.com/ubuntu focal-updates/restricted DEP-11 64x64 Icons [29 B]
+Get:47 http://us.archive.ubuntu.com/ubuntu focal-updates/restricted DEP-11 64x64@2 Icons [29 B]
+Get:48 http://us.archive.ubuntu.com/ubuntu focal-updates/restricted amd64 c-n-f Metadata [548 B]
+Get:49 http://us.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1,237 kB]
+Get:50 http://us.archive.ubuntu.com/ubuntu focal-updates/universe i386 Packages [810 kB]
+Get:51 http://us.archive.ubuntu.com/ubuntu focal-updates/universe Translation-en [297 kB]
+Get:52 http://us.archive.ubuntu.com/ubuntu focal-updates/universe amd64 DEP-11 Metadata [446 kB]
+Get:53 http://us.archive.ubuntu.com/ubuntu focal-updates/universe DEP-11 48x48 Icons [297 kB]
+Get:54 http://us.archive.ubuntu.com/ubuntu focal-updates/universe DEP-11 64x64 Icons [520 kB]
+Get:55 http://us.archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [28.3 kB]
+Get:56 http://us.archive.ubuntu.com/ubuntu focal-updates/multiverse i386 Packages [8,440 B]
+Get:57 http://us.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [27.0 kB]
+Get:58 http://us.archive.ubuntu.com/ubuntu focal-updates/multiverse Translation-en [7,936 B]
+Get:59 http://us.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 DEP-11 Metadata [940 B]
+Get:60 http://us.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 c-n-f Metadata [612 B]
+Get:61 http://us.archive.ubuntu.com/ubuntu focal-backports/main i386 Packages [36.1 kB]
+Get:62 http://us.archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [45.7 kB]
+Get:63 http://us.archive.ubuntu.com/ubuntu focal-backports/main Translation-en [16.3 kB]
+Get:64 http://us.archive.ubuntu.com/ubuntu focal-backports/main amd64 DEP-11 Metadata [8,004 B]
+Get:65 http://us.archive.ubuntu.com/ubuntu focal-backports/main DEP-11 48x48 Icons [7,156 B]
+Get:66 http://us.archive.ubuntu.com/ubuntu focal-backports/main DEP-11 64x64 Icons [10.7 kB]
+Get:67 http://us.archive.ubuntu.com/ubuntu focal-backports/main amd64 c-n-f Metadata [1,420 B]
+Get:68 http://us.archive.ubuntu.com/ubuntu focal-backports/restricted amd64 DEP-11 Metadata [216 B]
+Get:69 http://us.archive.ubuntu.com/ubuntu focal-backports/restricted DEP-11 48x48 Icons [29 B]
+Get:70 http://us.archive.ubuntu.com/ubuntu focal-backports/restricted DEP-11 64x64 Icons [29 B]
+Get:71 http://us.archive.ubuntu.com/ubuntu focal-backports/restricted DEP-11 64x64@2 Icons [29 B]
+Get:72 http://us.archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [25.0 kB]
+Get:73 http://us.archive.ubuntu.com/ubuntu focal-backports/universe i386 Packages [13.8 kB]
+Get:74 http://us.archive.ubuntu.com/ubuntu focal-backports/universe Translation-en [16.3 kB]
+Get:75 http://us.archive.ubuntu.com/ubuntu focal-backports/universe amd64 DEP-11 Metadata [30.5 kB]
+Get:76 http://us.archive.ubuntu.com/ubuntu focal-backports/universe DEP-11 48x48 Icons [13.3 kB]
+Get:77 http://us.archive.ubuntu.com/ubuntu focal-backports/universe DEP-11 64x64 Icons [22.7 kB]
+Get:78 http://us.archive.ubuntu.com/ubuntu focal-backports/universe amd64 c-n-f Metadata [880 B]
+Get:79 http://us.archive.ubuntu.com/ubuntu focal-backports/multiverse amd64 DEP-11 Metadata [212 B]
+Get:80 http://us.archive.ubuntu.com/ubuntu focal-backports/multiverse DEP-11 48x48 Icons [29 B]
+Get:81 http://us.archive.ubuntu.com/ubuntu focal-backports/multiverse DEP-11 64x64 Icons [29 B]
+Get:82 http://us.archive.ubuntu.com/ubuntu focal-backports/multiverse DEP-11 64x64@2 Icons [29 B]
+Fetched 24.8 MB in 23s (1,061 kB/s)                                           
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+512 packages can be upgraded. Run &apos;apt list --upgradable&apos; to see them.
+root@lebahieu22ns018:/home/ubuntu# apt install apache2
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+0 upgraded, 9 newly installed, 0 to remove and 512 not upgraded.
+Need to get 1,829 kB of archives.
+After this operation, 7,976 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 libapr1 amd64 1.6.5-1ubuntu1.1 [91.5 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 libaprutil1 amd64 1.6.1-4ubuntu2.2 [85.1 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-4ubuntu2.2 [10.5 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 libaprutil1-ldap amd64 1.6.1-4ubuntu2.2 [8,752 B]
+Get:5 http://us.archive.ubuntu.com/ubuntu focal/main amd64 liblua5.2-0 amd64 5.2.4-1.1build3 [106 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 apache2-bin amd64 2.4.41-4ubuntu3.21 [1,189 kB]
+Get:7 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 apache2-data all 2.4.41-4ubuntu3.21 [159 kB]
+Get:8 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 apache2-utils amd64 2.4.41-4ubuntu3.21 [84.7 kB]
+Get:9 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 apache2 amd64 2.4.41-4ubuntu3.21 [95.6 kB]
+Fetched 1,829 kB in 7s (270 kB/s)                                             
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... 145884 files and directories currently installed.)
+Preparing to unpack .../0-libapr1_1.6.5-1ubuntu1.1_amd64.deb ...
+Unpacking libapr1:amd64 (1.6.5-1ubuntu1.1) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../1-libaprutil1_1.6.1-4ubuntu2.2_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.6.1-4ubuntu2.2) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../2-libaprutil1-dbd-sqlite3_1.6.1-4ubuntu2.2_amd64.deb ..
+.
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-4ubuntu2.2) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../3-libaprutil1-ldap_1.6.1-4ubuntu2.2_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.6.1-4ubuntu2.2) ...
+Selecting previously unselected package liblua5.2-0:amd64.
+Preparing to unpack .../4-liblua5.2-0_5.2.4-1.1build3_amd64.deb ...
+Unpacking liblua5.2-0:amd64 (5.2.4-1.1build3) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../5-apache2-bin_2.4.41-4ubuntu3.21_amd64.deb ...
+Unpacking apache2-bin (2.4.41-4ubuntu3.21) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../6-apache2-data_2.4.41-4ubuntu3.21_all.deb ...
+Unpacking apache2-data (2.4.41-4ubuntu3.21) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../7-apache2-utils_2.4.41-4ubuntu3.21_amd64.deb ...
+Unpacking apache2-utils (2.4.41-4ubuntu3.21) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../8-apache2_2.4.41-4ubuntu3.21_amd64.deb ...
+Unpacking apache2 (2.4.41-4ubuntu3.21) ...
+Setting up libapr1:amd64 (1.6.5-1ubuntu1.1) ...
+Setting up liblua5.2-0:amd64 (5.2.4-1.1build3) ...
+Setting up apache2-data (2.4.41-4ubuntu3.21) ...
+Setting up libaprutil1:amd64 (1.6.1-4ubuntu2.2) ...
+Setting up libaprutil1-ldap:amd64 (1.6.1-4ubuntu2.2) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-4ubuntu2.2) ...
+Setting up apache2-utils (2.4.41-4ubuntu3.21) ...
+Setting up apache2-bin (2.4.41-4ubuntu3.21) ...
+Setting up apache2 (2.4.41-4ubuntu3.21) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /
+lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean
+.service → /lib/systemd/system/apache-htcacheclean.service.
+Processing triggers for ufw (0.36-6ubuntu1) ...
+Processing triggers for systemd (245.4-4ubuntu3.15) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+root@lebahieu22ns018:/home/ubuntu# systemctl start apache3
+Failed to start apache3.service: Unit apache3.service not found.
+root@lebahieu22ns018:/home/ubuntu# systemctl start apache2
+root@lebahieu22ns018:/home/ubuntu# systemctl status apache2
+<font color="#4E9A06"><b>●</b></font> apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor pres<span style="background-color:#FFFFFF"><font color="#300A24">&gt;</font></span>
+     Active: <font color="#4E9A06"><b>active (running)</b></font> since Thu 2024-11-14 15:22:17 EST; 2min 57s ago
+       Docs: https://httpd.apache.org/docs/2.4/
+   Main PID: 5851 (apache2)
+      Tasks: 55 (limit: 4583)
+     Memory: 4.9M
+     CGroup: /system.slice/apache2.service
+             ├─5851 /usr/sbin/apache2 -k start
+             ├─5852 /usr/sbin/apache2 -k start
+             └─5853 /usr/sbin/apache2 -k start
+
+Nov 14 15:22:17 lebahieu22ns018 systemd[1]: Starting The Apache HTTP Server...
+Nov 14 15:22:17 lebahieu22ns018 systemd[1]: Started The Apache HTTP Server.
+...skipping...
+<font color="#4E9A06"><b>●</b></font> apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor pres<span style="background-color:#FFFFFF"><font color="#300A24">&gt;</font></span>
+     Active: <font color="#4E9A06"><b>active (running)</b></font> since Thu 2024-11-14 15:22:17 EST; 2min 57s ago
+       Docs: https://httpd.apache.org/docs/2.4/
+   Main PID: 5851 (apache2)
+      Tasks: 55 (limit: 4583)
+     Memory: 4.9M
+     CGroup: /system.slice/apache2.service
+             ├─5851 /usr/sbin/apache2 -k start
+             ├─5852 /usr/sbin/apache2 -k start
+             └─5853 /usr/sbin/apache2 -k start
+
+Nov 14 15:22:17 lebahieu22ns018 systemd[1]: Starting The Apache HTTP Server...
+Nov 14 15:22:17 lebahieu22ns018 systemd[1]: Started The Apache HTTP Server.
+<b>~</b>
+<b>~</b>
+<b>~</b>
+<b>~</b>
+<b>~</b>
+<b>~</b>
+<b>~</b>
+<b>~</b>
+<span style="background-color:#FFFFFF"><font color="#300A24">lines 1-14/14 (END)</font></span>
+[1]+  Stopped                 systemctl status apache2
+root@lebahieu22ns018:/home/ubuntu# ufw allow &apos;Apache Full&apos;
+Rules updated
+Rules updated (v6)
+root@lebahieu22ns018:/home/ubuntu# ufw status
+Status: inactive
+root@lebahieu22ns018:/home/ubuntu# ufw enable
+Firewall is active and enabled on system startup
+root@lebahieu22ns018:/home/ubuntu# ufw status
+Status: active
+
+To                         Action      From
+--                         ------      ----
+Apache Full                ALLOW       Anywhere                  
+Apache Full (v6)           ALLOW       Anywhere (v6)             
+
+root@lebahieu22ns018:/home/ubuntu# mkkdir /var/www/chatapp
+
+Command &apos;mkkdir&apos; not found, did you mean:
+
+  command &apos;mmkdir&apos; from deb mblaze (0.6-1)
+  command &apos;mkdir&apos; from deb coreutils (8.30-3ubuntu2)
+
+Try: apt install &lt;deb name&gt;
+
+root@lebahieu22ns018:/home/ubuntu# mkdir /var/www/chatapp
+mkdir: cannot create directory ‘/var/www/chatapp’: File exists
+root@lebahieu22ns018:/home/ubuntu# mkdir -p /var/www/chatapp
+root@lebahieu22ns018:/home/ubuntu# chown -R $USER:$USER /var/www/chatapp
+root@lebahieu22ns018:/home/ubuntu# chmod -R 755 /var/www
+root@lebahieu22ns018:/home/ubuntu# nano /etc/apache2/sites-available/chatapp.conf
+
+
+Use &quot;fg&quot; to return to nano.
+
+[2]+  Stopped                 nano /etc/apache2/sites-available/chatapp.conf
+root@lebahieu22ns018:/home/ubuntu# nano /etc/apache2/sites-available/chatapp.conf
+
+
+Use &quot;fg&quot; to return to nano.
+
+[3]+  Stopped                 nano /etc/apache2/sites-available/chatapp.conf
+root@lebahieu22ns018:/home/ubuntu# a2ensite chatapp.conf
+Enabling site chatapp.
+To activate the new configuration, you need to run:
+  systemctl reload apache2
+root@lebahieu22ns018:/home/ubuntu# systemctl reload apache2
+root@lebahieu22ns018:/home/ubuntu# hostname -I
+192.168.1.11 2001:ee0:4b6e:c100:3742:7320:c42f:b015 2001:ee0:4b6e:c100:792:f3a4:3f28:e2fb 
+root@lebahieu22ns018:/home/ubuntu# nano /etc/hosts
+
+
+Use &quot;fg&quot; to return to nano.
+
+[4]+  Stopped                 nano /etc/hosts
+root@lebahieu22ns018:/home/ubuntu# a2dissite 000-default.conf
+Site 000-default disabled.
+To activate the new configuration, you need to run:
+  systemctl reload apache2
+root@lebahieu22ns018:/home/ubuntu# systemctl reload apache2
+root@lebahieu22ns018:/home/ubuntu# apache2ctl configtest
+Syntax OK
+root@lebahieu22ns018:/home/ubuntu# apt install php libapache2-mod-php php-mysql php-cli php-curl php-mbstring php-json php-zip
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  libapache2-mod-php7.4 libonig5 libzip5 php-common php7.4 php7.4-cli php7.4-common php7.4-curl php7.4-json php7.4-mbstring php7.4-mysql php7.4-opcache php7.4-readline php7.4-zip
+Suggested packages:
+  php-pear
+The following NEW packages will be installed:
+  libapache2-mod-php libapache2-mod-php7.4 libonig5 libzip5 php php-cli php-common php-curl php-json php-mbstring php-mysql php-zip php7.4 php7.4-cli php7.4-common php7.4-curl php7.4-json php7.4-mbstring
+  php7.4-mysql php7.4-opcache php7.4-readline php7.4-zip
+0 upgraded, 22 newly installed, 0 to remove and 512 not upgraded.
+Need to get 4,808 kB of archives.
+After this operation, 20.6 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://us.archive.ubuntu.com/ubuntu focal/main amd64 php-common all 2:75 [11.9 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 php7.4-common amd64 7.4.3-4ubuntu2.24 [984 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 php7.4-json amd64 7.4.3-4ubuntu2.24 [19.2 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 php7.4-opcache amd64 7.4.3-4ubuntu2.24 [198 kB]
+Get:5 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 php7.4-readline amd64 7.4.3-4ubuntu2.24 [12.6 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 php7.4-cli amd64 7.4.3-4ubuntu2.24 [1,427 kB]
+Get:7 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 libapache2-mod-php7.4 amd64 7.4.3-4ubuntu2.24 [1,369 kB]
+Get:8 http://us.archive.ubuntu.com/ubuntu focal/main amd64 libapache2-mod-php all 2:7.4+75 [2,836 B]
+Get:9 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 libonig5 amd64 6.9.4-1 [142 kB]
+Get:10 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 libzip5 amd64 1.5.1-0ubuntu1 [46.7 kB]
+Get:11 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 php7.4 all 7.4.3-4ubuntu2.24 [9,240 B]
+Get:12 http://us.archive.ubuntu.com/ubuntu focal/main amd64 php all 2:7.4+75 [2,712 B]
+Get:13 http://us.archive.ubuntu.com/ubuntu focal/main amd64 php-cli all 2:7.4+75 [2,792 B]
+Get:14 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 php7.4-curl amd64 7.4.3-4ubuntu2.24 [30.8 kB]
+Get:15 http://us.archive.ubuntu.com/ubuntu focal/main amd64 php-curl all 2:7.4+75 [2,000 B]
+Get:16 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-json all 2:7.4+75 [2,000 B]
+Get:17 http://us.archive.ubuntu.com/ubuntu focal-updates/universe amd64 php7.4-mbstring amd64 7.4.3-4ubuntu2.24 [396 kB]
+Get:18 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-mbstring all 2:7.4+75 [2,012 B]
+Get:19 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 php7.4-mysql amd64 7.4.3-4ubuntu2.24 [121 kB]
+Get:20 http://us.archive.ubuntu.com/ubuntu focal/main amd64 php-mysql all 2:7.4+75 [2,000 B]
+Get:21 http://us.archive.ubuntu.com/ubuntu focal-updates/universe amd64 php7.4-zip amd64 7.4.3-4ubuntu2.24 [21.6 kB]
+Get:22 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-zip all 2:7.4+75 [1,996 B]
+Fetched 4,808 kB in 5s (901 kB/s)<font color="#C4A000">       </font>
+Selecting previously unselected package php-common.
+(Reading database ... 146592 files and directories currently installed.)
+Preparing to unpack .../00-php-common_2%3a75_all.deb ...
+Unpacking php-common (2:75) ...
+Selecting previously unselected package php7.4-common.
+Preparing to unpack .../01-php7.4-common_7.4.3-4ubuntu2.24_amd64.deb ...
+Unpacking php7.4-common (7.4.3-4ubuntu2.24) ...
+Selecting previously unselected package php7.4-json.
+Preparing to unpack .../02-php7.4-json_7.4.3-4ubuntu2.24_amd64.deb ...
+Unpacking php7.4-json (7.4.3-4ubuntu2.24) ...
+Selecting previously unselected package php7.4-opcache.
+Preparing to unpack .../03-php7.4-opcache_7.4.3-4ubuntu2.24_amd64.deb ...
+Unpacking php7.4-opcache (7.4.3-4ubuntu2.24) ...
+Selecting previously unselected package php7.4-readline.
+Preparing to unpack .../04-php7.4-readline_7.4.3-4ubuntu2.24_amd64.deb ...
+Unpacking php7.4-readline (7.4.3-4ubuntu2.24) ...
+Selecting previously unselected package php7.4-cli.
+Preparing to unpack .../05-php7.4-cli_7.4.3-4ubuntu2.24_amd64.deb ...
+Unpacking php7.4-cli (7.4.3-4ubuntu2.24) ...
+Selecting previously unselected package libapache2-mod-php7.4.
+Preparing to unpack .../06-libapache2-mod-php7.4_7.4.3-4ubuntu2.24_amd64.deb ...
+Unpacking libapache2-mod-php7.4 (7.4.3-4ubuntu2.24) ...
+Selecting previously unselected package libapache2-mod-php.
+Preparing to unpack .../07-libapache2-mod-php_2%3a7.4+75_all.deb ...
+Unpacking libapache2-mod-php (2:7.4+75) ...
+Selecting previously unselected package libonig5:amd64.
+Preparing to unpack .../08-libonig5_6.9.4-1_amd64.deb ...
+Unpacking libonig5:amd64 (6.9.4-1) ...
+Selecting previously unselected package libzip5:amd64.
+Preparing to unpack .../09-libzip5_1.5.1-0ubuntu1_amd64.deb ...
+Unpacking libzip5:amd64 (1.5.1-0ubuntu1) ...
+Selecting previously unselected package php7.4.
+Preparing to unpack .../10-php7.4_7.4.3-4ubuntu2.24_all.deb ...
+Unpacking php7.4 (7.4.3-4ubuntu2.24) ...
+Selecting previously unselected package php.
+Preparing to unpack .../11-php_2%3a7.4+75_all.deb ...
+Unpacking php (2:7.4+75) ...
+Selecting previously unselected package php-cli.
+Preparing to unpack .../12-php-cli_2%3a7.4+75_all.deb ...
+Unpacking php-cli (2:7.4+75) ...
+Selecting previously unselected package php7.4-curl.
+Preparing to unpack .../13-php7.4-curl_7.4.3-4ubuntu2.24_amd64.deb ...
+Unpacking php7.4-curl (7.4.3-4ubuntu2.24) ...
+Selecting previously unselected package php-curl.
+Preparing to unpack .../14-php-curl_2%3a7.4+75_all.deb ...
+Unpacking php-curl (2:7.4+75) ...
+Selecting previously unselected package php-json.
+Preparing to unpack .../15-php-json_2%3a7.4+75_all.deb ...
+Unpacking php-json (2:7.4+75) ...
+Selecting previously unselected package php7.4-mbstring.
+Preparing to unpack .../16-php7.4-mbstring_7.4.3-4ubuntu2.24_amd64.deb ...
+Unpacking php7.4-mbstring (7.4.3-4ubuntu2.24) ...
+Selecting previously unselected package php-mbstring.
+Preparing to unpack .../17-php-mbstring_2%3a7.4+75_all.deb ...
+Unpacking php-mbstring (2:7.4+75) ...
+Selecting previously unselected package php7.4-mysql.
+Preparing to unpack .../18-php7.4-mysql_7.4.3-4ubuntu2.24_amd64.deb ...
+Unpacking php7.4-mysql (7.4.3-4ubuntu2.24) ...
+Selecting previously unselected package php-mysql.
+Preparing to unpack .../19-php-mysql_2%3a7.4+75_all.deb ...
+Unpacking php-mysql (2:7.4+75) ...
+Selecting previously unselected package php7.4-zip.
+Preparing to unpack .../20-php7.4-zip_7.4.3-4ubuntu2.24_amd64.deb ...
+Unpacking php7.4-zip (7.4.3-4ubuntu2.24) ...
+Selecting previously unselected package php-zip.
+Preparing to unpack .../21-php-zip_2%3a7.4+75_all.deb ...
+Unpacking php-zip (2:7.4+75) ...
+Setting up php-common (2:75) ...
+Created symlink /etc/systemd/system/timers.target.wants/phpsessionclean.timer → /lib/systemd/system/phpsessionclean.timer.
+Setting up php7.4-common (7.4.3-4ubuntu2.24) ...
+
+Creating config file /etc/php/7.4/mods-available/calendar.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/ctype.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/exif.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/fileinfo.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/ffi.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/ftp.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/gettext.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/iconv.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/pdo.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/phar.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/posix.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/shmop.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/sockets.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/sysvmsg.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/sysvsem.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/sysvshm.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/tokenizer.ini with new version
+Setting up php7.4-curl (7.4.3-4ubuntu2.24) ...
+
+Creating config file /etc/php/7.4/mods-available/curl.ini with new version
+Setting up php7.4-mysql (7.4.3-4ubuntu2.24) ...
+
+Creating config file /etc/php/7.4/mods-available/mysqlnd.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/mysqli.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/pdo_mysql.ini with new version
+Setting up libzip5:amd64 (1.5.1-0ubuntu1) ...
+Setting up php7.4-readline (7.4.3-4ubuntu2.24) ...
+
+Creating config file /etc/php/7.4/mods-available/readline.ini with new version
+Setting up php7.4-zip (7.4.3-4ubuntu2.24) ...
+
+Creating config file /etc/php/7.4/mods-available/zip.ini with new version
+Setting up php-zip (2:7.4+75) ...
+Setting up php7.4-opcache (7.4.3-4ubuntu2.24) ...
+
+Creating config file /etc/php/7.4/mods-available/opcache.ini with new version
+Setting up libonig5:amd64 (6.9.4-1) ...
+Setting up php-curl (2:7.4+75) ...
+Setting up php7.4-json (7.4.3-4ubuntu2.24) ...
+
+Creating config file /etc/php/7.4/mods-available/json.ini with new version
+Setting up php-mysql (2:7.4+75) ...
+Setting up php-json (2:7.4+75) ...
+Setting up php7.4-mbstring (7.4.3-4ubuntu2.24) ...
+
+Creating config file /etc/php/7.4/mods-available/mbstring.ini with new version
+Setting up php7.4-cli (7.4.3-4ubuntu2.24) ...
+update-alternatives: using /usr/bin/php7.4 to provide /usr/bin/php (php) in auto mode
+update-alternatives: using /usr/bin/phar7.4 to provide /usr/bin/phar (phar) in auto mode
+update-alternatives: using /usr/bin/phar.phar7.4 to provide /usr/bin/phar.phar (phar.phar) in auto mode
+
+Creating config file /etc/php/7.4/cli/php.ini with new version
+Setting up php-mbstring (2:7.4+75) ...
+Setting up php-cli (2:7.4+75) ...
+Setting up libapache2-mod-php7.4 (7.4.3-4ubuntu2.24) ...
+
+Creating config file /etc/php/7.4/apache2/php.ini with new version
+Module mpm_event disabled.
+Enabling module mpm_prefork.
+apache2_switch_mpm Switch to prefork
+apache2_invoke: Enable module php7.4
+Setting up php7.4 (7.4.3-4ubuntu2.24) ...
+Setting up libapache2-mod-php (2:7.4+75) ...
+Setting up php (2:7.4+75) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+Processing triggers for php7.4-cli (7.4.3-4ubuntu2.24) ...
+Processing triggers for libapache2-mod-php7.4 (7.4.3-4ubuntu2.24) ...
+root@lebahieu22ns018:/home/ubuntu# apt install mysql-server
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  libcgi-fast-perl libcgi-pm-perl libevent-core-2.1-7 libevent-pthreads-2.1-7 libfcgi-perl libhtml-template-perl libmecab2 mecab-ipadic mecab-ipadic-utf8 mecab-utils mysql-client-8.0 mysql-client-core-8.0
+  mysql-server-8.0 mysql-server-core-8.0
+Suggested packages:
+  libipc-sharedcache-perl mailx tinyca
+The following NEW packages will be installed:
+  libcgi-fast-perl libcgi-pm-perl libevent-core-2.1-7 libevent-pthreads-2.1-7 libfcgi-perl libhtml-template-perl libmecab2 mecab-ipadic mecab-ipadic-utf8 mecab-utils mysql-client-8.0 mysql-client-core-8.0
+  mysql-server mysql-server-8.0 mysql-server-core-8.0
+0 upgraded, 15 newly installed, 0 to remove and 512 not upgraded.
+Need to get 36.6 MB of archives.
+After this operation, 317 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 mysql-client-core-8.0 amd64 8.0.40-0ubuntu0.20.04.1 [5,085 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 mysql-client-8.0 amd64 8.0.40-0ubuntu0.20.04.1 [22.0 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu focal/main amd64 libevent-core-2.1-7 amd64 2.1.11-stable-1 [89.1 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu focal/main amd64 libevent-pthreads-2.1-7 amd64 2.1.11-stable-1 [7,372 B]
+Get:5 http://us.archive.ubuntu.com/ubuntu focal/main amd64 libmecab2 amd64 0.996-10build1 [233 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 mysql-server-core-8.0 amd64 8.0.40-0ubuntu0.20.04.1 [22.8 MB]
+Get:7 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 mysql-server-8.0 amd64 8.0.40-0ubuntu0.20.04.1 [1,329 kB]
+Get:8 http://us.archive.ubuntu.com/ubuntu focal/main amd64 libcgi-pm-perl all 4.46-1 [186 kB]
+Get:9 http://us.archive.ubuntu.com/ubuntu focal/main amd64 libfcgi-perl amd64 0.79-1 [33.1 kB]                                                                                                                    
+Get:10 http://us.archive.ubuntu.com/ubuntu focal/main amd64 libcgi-fast-perl all 1:2.15-1 [10.5 kB]                                                                                                               
+Get:11 http://us.archive.ubuntu.com/ubuntu focal/main amd64 libhtml-template-perl all 2.97-1 [59.0 kB]                                                                                                            
+Get:12 http://us.archive.ubuntu.com/ubuntu focal/main amd64 mecab-utils amd64 0.996-10build1 [4,912 B]                                                                                                            
+Get:13 http://us.archive.ubuntu.com/ubuntu focal/main amd64 mecab-ipadic all 2.7.0-20070801+main-2.1 [6,714 kB]                                                                                                   
+Get:14 http://us.archive.ubuntu.com/ubuntu focal/main amd64 mecab-ipadic-utf8 all 2.7.0-20070801+main-2.1 [4,380 B]                                                                                               
+Get:15 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 mysql-server all 8.0.40-0ubuntu0.20.04.1 [9,484 B]                                                                                            
+Fetched 36.6 MB in 7s (5,498 kB/s)                                                                                                                                                                                
+Preconfiguring packages ...
+Selecting previously unselected package mysql-client-core-8.0.
+(Reading database ... 146803 files and directories currently installed.)
+Preparing to unpack .../00-mysql-client-core-8.0_8.0.40-0ubuntu0.20.04.1_amd64.deb ...
+Unpacking mysql-client-core-8.0 (8.0.40-0ubuntu0.20.04.1) ...
+Selecting previously unselected package mysql-client-8.0.
+Preparing to unpack .../01-mysql-client-8.0_8.0.40-0ubuntu0.20.04.1_amd64.deb ...
+Unpacking mysql-client-8.0 (8.0.40-0ubuntu0.20.04.1) ...
+Selecting previously unselected package libevent-core-2.1-7:amd64.
+Preparing to unpack .../02-libevent-core-2.1-7_2.1.11-stable-1_amd64.deb ...
+Unpacking libevent-core-2.1-7:amd64 (2.1.11-stable-1) ...
+Selecting previously unselected package libevent-pthreads-2.1-7:amd64.
+Preparing to unpack .../03-libevent-pthreads-2.1-7_2.1.11-stable-1_amd64.deb ...
+Unpacking libevent-pthreads-2.1-7:amd64 (2.1.11-stable-1) ...
+Selecting previously unselected package libmecab2:amd64.
+Preparing to unpack .../04-libmecab2_0.996-10build1_amd64.deb ...
+Unpacking libmecab2:amd64 (0.996-10build1) ...
+Selecting previously unselected package mysql-server-core-8.0.
+Preparing to unpack .../05-mysql-server-core-8.0_8.0.40-0ubuntu0.20.04.1_amd64.deb ...
+Unpacking mysql-server-core-8.0 (8.0.40-0ubuntu0.20.04.1) ...
+Selecting previously unselected package mysql-server-8.0.
+Preparing to unpack .../06-mysql-server-8.0_8.0.40-0ubuntu0.20.04.1_amd64.deb ...
+Unpacking mysql-server-8.0 (8.0.40-0ubuntu0.20.04.1) ...
+Selecting previously unselected package libcgi-pm-perl.
+Preparing to unpack .../07-libcgi-pm-perl_4.46-1_all.deb ...
+Unpacking libcgi-pm-perl (4.46-1) ...
+Selecting previously unselected package libfcgi-perl.
+Preparing to unpack .../08-libfcgi-perl_0.79-1_amd64.deb ...
+Unpacking libfcgi-perl (0.79-1) ...
+Selecting previously unselected package libcgi-fast-perl.
+Preparing to unpack .../09-libcgi-fast-perl_1%3a2.15-1_all.deb ...
+Unpacking libcgi-fast-perl (1:2.15-1) ...
+Selecting previously unselected package libhtml-template-perl.
+Preparing to unpack .../10-libhtml-template-perl_2.97-1_all.deb ...
+Unpacking libhtml-template-perl (2.97-1) ...
+Selecting previously unselected package mecab-utils.
+Preparing to unpack .../11-mecab-utils_0.996-10build1_amd64.deb ...
+Unpacking mecab-utils (0.996-10build1) ...
+Selecting previously unselected package mecab-ipadic.
+Preparing to unpack .../12-mecab-ipadic_2.7.0-20070801+main-2.1_all.deb ...
+Unpacking mecab-ipadic (2.7.0-20070801+main-2.1) ...
+Selecting previously unselected package mecab-ipadic-utf8.
+Preparing to unpack .../13-mecab-ipadic-utf8_2.7.0-20070801+main-2.1_all.deb ...
+Unpacking mecab-ipadic-utf8 (2.7.0-20070801+main-2.1) ...
+Selecting previously unselected package mysql-server.
+Preparing to unpack .../14-mysql-server_8.0.40-0ubuntu0.20.04.1_all.deb ...
+Unpacking mysql-server (8.0.40-0ubuntu0.20.04.1) ...
+Setting up libmecab2:amd64 (0.996-10build1) ...
+Setting up mysql-client-core-8.0 (8.0.40-0ubuntu0.20.04.1) ...
+Setting up libcgi-pm-perl (4.46-1) ...
+Setting up libhtml-template-perl (2.97-1) ...
+Setting up mecab-utils (0.996-10build1) ...
+Setting up libevent-core-2.1-7:amd64 (2.1.11-stable-1) ...
+Setting up mysql-client-8.0 (8.0.40-0ubuntu0.20.04.1) ...
+Setting up libfcgi-perl (0.79-1) ...
+Setting up libevent-pthreads-2.1-7:amd64 (2.1.11-stable-1) ...
+Setting up mecab-ipadic (2.7.0-20070801+main-2.1) ...
+Compiling IPA dictionary for Mecab.  This takes long time...
+reading /usr/share/mecab/dic/ipadic/unk.def ... 40
+emitting double-array: 100% |###########################################| 
+/usr/share/mecab/dic/ipadic/model.def is not found. skipped.
+reading /usr/share/mecab/dic/ipadic/Noun.proper.csv ... 27328
+reading /usr/share/mecab/dic/ipadic/Noun.others.csv ... 151
+reading /usr/share/mecab/dic/ipadic/Noun.name.csv ... 34202
+reading /usr/share/mecab/dic/ipadic/Interjection.csv ... 252
+reading /usr/share/mecab/dic/ipadic/Adj.csv ... 27210
+reading /usr/share/mecab/dic/ipadic/Noun.csv ... 60477
+reading /usr/share/mecab/dic/ipadic/Noun.demonst.csv ... 120
+reading /usr/share/mecab/dic/ipadic/Noun.place.csv ... 72999
+reading /usr/share/mecab/dic/ipadic/Adverb.csv ... 3032
+reading /usr/share/mecab/dic/ipadic/Noun.adjv.csv ... 3328
+reading /usr/share/mecab/dic/ipadic/Verb.csv ... 130750
+reading /usr/share/mecab/dic/ipadic/Postp.csv ... 146
+reading /usr/share/mecab/dic/ipadic/Others.csv ... 2
+reading /usr/share/mecab/dic/ipadic/Noun.number.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Filler.csv ... 19
+reading /usr/share/mecab/dic/ipadic/Adnominal.csv ... 135
+reading /usr/share/mecab/dic/ipadic/Noun.org.csv ... 16668
+reading /usr/share/mecab/dic/ipadic/Noun.adverbal.csv ... 795
+reading /usr/share/mecab/dic/ipadic/Noun.verbal.csv ... 12146
+reading /usr/share/mecab/dic/ipadic/Conjunction.csv ... 171
+reading /usr/share/mecab/dic/ipadic/Postp-col.csv ... 91
+reading /usr/share/mecab/dic/ipadic/Noun.nai.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Prefix.csv ... 221
+reading /usr/share/mecab/dic/ipadic/Symbol.csv ... 208
+reading /usr/share/mecab/dic/ipadic/Suffix.csv ... 1393
+reading /usr/share/mecab/dic/ipadic/Auxil.csv ... 199
+emitting double-array: 100% |###########################################| 
+reading /usr/share/mecab/dic/ipadic/matrix.def ... 1316x1316
+emitting matrix      : 100% |###########################################| 
+
+done!
+update-alternatives: using /var/lib/mecab/dic/ipadic to provide /var/lib/mecab/dic/debian (mecab-dictionary) in auto mode
+Setting up libcgi-fast-perl (1:2.15-1) ...
+Setting up mysql-server-core-8.0 (8.0.40-0ubuntu0.20.04.1) ...
+Setting up mecab-ipadic-utf8 (2.7.0-20070801+main-2.1) ...
+Compiling IPA dictionary for Mecab.  This takes long time...
+reading /usr/share/mecab/dic/ipadic/unk.def ... 40
+emitting double-array: 100% |###########################################| 
+/usr/share/mecab/dic/ipadic/model.def is not found. skipped.
+reading /usr/share/mecab/dic/ipadic/Noun.proper.csv ... 27328
+reading /usr/share/mecab/dic/ipadic/Noun.others.csv ... 151
+reading /usr/share/mecab/dic/ipadic/Noun.name.csv ... 34202
+reading /usr/share/mecab/dic/ipadic/Interjection.csv ... 252
+reading /usr/share/mecab/dic/ipadic/Adj.csv ... 27210
+reading /usr/share/mecab/dic/ipadic/Noun.csv ... 60477
+reading /usr/share/mecab/dic/ipadic/Noun.demonst.csv ... 120
+reading /usr/share/mecab/dic/ipadic/Noun.place.csv ... 72999
+reading /usr/share/mecab/dic/ipadic/Adverb.csv ... 3032
+reading /usr/share/mecab/dic/ipadic/Noun.adjv.csv ... 3328
+reading /usr/share/mecab/dic/ipadic/Verb.csv ... 130750
+reading /usr/share/mecab/dic/ipadic/Postp.csv ... 146
+reading /usr/share/mecab/dic/ipadic/Others.csv ... 2
+reading /usr/share/mecab/dic/ipadic/Noun.number.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Filler.csv ... 19
+reading /usr/share/mecab/dic/ipadic/Adnominal.csv ... 135
+reading /usr/share/mecab/dic/ipadic/Noun.org.csv ... 16668
+reading /usr/share/mecab/dic/ipadic/Noun.adverbal.csv ... 795
+reading /usr/share/mecab/dic/ipadic/Noun.verbal.csv ... 12146
+reading /usr/share/mecab/dic/ipadic/Conjunction.csv ... 171
+reading /usr/share/mecab/dic/ipadic/Postp-col.csv ... 91
+reading /usr/share/mecab/dic/ipadic/Noun.nai.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Prefix.csv ... 221
+reading /usr/share/mecab/dic/ipadic/Symbol.csv ... 208
+reading /usr/share/mecab/dic/ipadic/Suffix.csv ... 1393
+reading /usr/share/mecab/dic/ipadic/Auxil.csv ... 199
+emitting double-array: 100% |###########################################| 
+reading /usr/share/mecab/dic/ipadic/matrix.def ... 1316x1316
+emitting matrix      : 100% |###########################################| 
+
+done!
+update-alternatives: using /var/lib/mecab/dic/ipadic-utf8 to provide /var/lib/mecab/dic/debian (mecab-dictionary) in auto mode
+Setting up mysql-server-8.0 (8.0.40-0ubuntu0.20.04.1) ...
+update-alternatives: using /etc/mysql/mysql.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Renaming removed key_buffer and myisam-recover options (if present)
+mysqld will log errors to /var/log/mysql/error.log
+mysqld is running as pid 17662
+Created symlink /etc/systemd/system/multi-user.target.wants/mysql.service → /lib/systemd/system/mysql.service.
+Setting up mysql-server (8.0.40-0ubuntu0.20.04.1) ...
+Processing triggers for systemd (245.4-4ubuntu3.15) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+root@lebahieu22ns018:/home/ubuntu# mysql_secure_installation
+
+Securing the MySQL server deployment.
+
+Connecting to MySQL using a blank password.
+
+VALIDATE PASSWORD COMPONENT can be used to test passwords
+and improve security. It checks the strength of password
+and allows the users to set only those passwords which are
+secure enough. Would you like to setup VALIDATE PASSWORD component?
+
+Press y|Y for Yes, any other key for No: no
+
+Skipping password set for root as authentication with auth_socket is used by default.
+If you would like to use password authentication instead, this can be done with the &quot;ALTER_USER&quot; command.
+See https://dev.mysql.com/doc/refman/8.0/en/alter-user.html#alter-user-password-management for more information.
+
+By default, a MySQL installation has an anonymous user,
+allowing anyone to log into MySQL without having to have
+a user account created for them. This is intended only for
+testing, and to make the installation go a bit smoother.
+You should remove them before moving into a production
+environment.
+
+Remove anonymous users? (Press y|Y for Yes, any other key for No) : y
+Success.
+
+
+Normally, root should only be allowed to connect from
+&apos;localhost&apos;. This ensures that someone cannot guess at
+the root password from the network.
+
+Disallow root login remotely? (Press y|Y for Yes, any other key for No) : ^Z
+[5]+  Stopped                 mysql_secure_installation
+root@lebahieu22ns018:/home/ubuntu# apt install phpmyadmin
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  dbconfig-common dbconfig-mysql icc-profiles-free javascript-common libjs-jquery libjs-openlayers libjs-sphinxdoc libjs-underscore php-bz2 php-gd php-google-recaptcha php-phpmyadmin-motranslator
+  php-phpmyadmin-shapefile php-phpmyadmin-sql-parser php-phpseclib php-psr-cache php-psr-container php-psr-log php-symfony-cache php-symfony-cache-contracts php-symfony-expression-language
+  php-symfony-service-contracts php-symfony-var-exporter php-tcpdf php-twig php-twig-extensions php-xml php7.4-bz2 php7.4-gd php7.4-xml
+Suggested packages:
+  php-dbase php-libsodium php-mcrypt php-gmp php-symfony-service-implementation php-imagick php-twig-doc php-symfony-translation php-recode php-gd2 php-pragmarx-google2fa php-bacon-qr-code
+  php-samyoul-u2f-php-server
+Recommended packages:
+  php-mcrypt
+The following NEW packages will be installed:
+  dbconfig-common dbconfig-mysql icc-profiles-free javascript-common libjs-jquery libjs-openlayers libjs-sphinxdoc libjs-underscore php-bz2 php-gd php-google-recaptcha php-phpmyadmin-motranslator
+  php-phpmyadmin-shapefile php-phpmyadmin-sql-parser php-phpseclib php-psr-cache php-psr-container php-psr-log php-symfony-cache php-symfony-cache-contracts php-symfony-expression-language
+  php-symfony-service-contracts php-symfony-var-exporter php-tcpdf php-twig php-twig-extensions php-xml php7.4-bz2 php7.4-gd php7.4-xml phpmyadmin
+0 upgraded, 31 newly installed, 0 to remove and 512 not upgraded.
+Need to get 15.3 MB of archives.
+After this operation, 69.2 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 dbconfig-common all 2.0.13 [586 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 dbconfig-mysql all 2.0.13 [1,136 B]
+Get:3 http://us.archive.ubuntu.com/ubuntu focal/main amd64 icc-profiles-free all 2.0.1+dfsg-1 [549 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu focal/main amd64 javascript-common all 11 [6,066 B]
+Get:5 http://us.archive.ubuntu.com/ubuntu focal/main amd64 libjs-jquery all 3.3.1~dfsg-3 [329 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 libjs-underscore all 1.9.1~dfsg-1ubuntu0.20.04.1 [99.5 kB]
+Get:7 http://us.archive.ubuntu.com/ubuntu focal/main amd64 libjs-sphinxdoc all 1.8.5-7ubuntu3 [97.1 kB]
+Get:8 http://us.archive.ubuntu.com/ubuntu focal-updates/universe amd64 php7.4-bz2 amd64 7.4.3-4ubuntu2.24 [10.4 kB]
+Get:9 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-bz2 all 2:7.4+75 [2,004 B]
+Get:10 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 php7.4-gd amd64 7.4.3-4ubuntu2.24 [28.0 kB]
+Get:11 http://us.archive.ubuntu.com/ubuntu focal/main amd64 php-gd all 2:7.4+75 [2,000 B]
+Get:12 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-google-recaptcha all 1.2.3-1 [8,500 B]
+Get:13 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-psr-cache all 1.0.1-2 [5,300 B]
+Get:14 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-psr-log all 1.1.2-1 [8,268 B]
+Get:15 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-symfony-cache-contracts all 1.1.8-1 [6,504 B]
+Get:16 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-psr-container all 1.0.0-2 [3,352 B]
+Get:17 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-symfony-service-contracts all 1.1.8-1 [7,192 B]
+Get:18 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-symfony-var-exporter all 4.3.8+dfsg-1ubuntu1 [18.4 kB]
+Get:19 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-symfony-cache all 4.3.8+dfsg-1ubuntu1 [50.1 kB]
+Get:20 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-symfony-expression-language all 4.3.8+dfsg-1ubuntu1 [20.3 kB]
+Get:21 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-phpmyadmin-motranslator all 5.0.0-1 [12.2 kB]
+Get:22 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-phpmyadmin-shapefile all 2.1-3 [10.6 kB]
+Get:23 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-phpmyadmin-sql-parser all 4.6.1-2 [70.4 kB]
+Get:24 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-phpseclib all 2.0.23-2 [182 kB]
+Get:25 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-tcpdf all 6.3.5+dfsg1-1 [7,791 kB]
+Get:26 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-twig all 2.12.5-1 [98.8 kB]                                                                                                                   
+Get:27 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 php-twig-extensions all 1.5.4-1 [10.6 kB]                                                                                                         
+Get:28 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 php7.4-xml amd64 7.4.3-4ubuntu2.24 [99.3 kB]                                                                                                  
+Get:29 http://us.archive.ubuntu.com/ubuntu focal/main amd64 php-xml all 2:7.4+75 [2,028 B]                                                                                                                        
+Get:30 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 libjs-openlayers all 2.13.1+ds2-7 [715 kB]                                                                                                        
+Get:31 http://us.archive.ubuntu.com/ubuntu focal/universe amd64 phpmyadmin all 4:4.9.5+dfsg1-2 [4,426 kB]                                                                                                         
+Fetched 15.3 MB in 7s (2,265 kB/s)                                                                                                                                                                                
+Extracting templates from packages: 100%
+Preconfiguring packages ...
+Selecting previously unselected package dbconfig-common.
+(Reading database ... 147159 files and directories currently installed.)
+Preparing to unpack .../00-dbconfig-common_2.0.13_all.deb ...
+Unpacking dbconfig-common (2.0.13) ...
+Selecting previously unselected package dbconfig-mysql.
+Preparing to unpack .../01-dbconfig-mysql_2.0.13_all.deb ...
+Unpacking dbconfig-mysql (2.0.13) ...
+Selecting previously unselected package icc-profiles-free.
+Preparing to unpack .../02-icc-profiles-free_2.0.1+dfsg-1_all.deb ...
+Unpacking icc-profiles-free (2.0.1+dfsg-1) ...
+Selecting previously unselected package javascript-common.
+Preparing to unpack .../03-javascript-common_11_all.deb ...
+Unpacking javascript-common (11) ...
+Selecting previously unselected package libjs-jquery.
+Preparing to unpack .../04-libjs-jquery_3.3.1~dfsg-3_all.deb ...
+Unpacking libjs-jquery (3.3.1~dfsg-3) ...
+Selecting previously unselected package libjs-underscore.
+Preparing to unpack .../05-libjs-underscore_1.9.1~dfsg-1ubuntu0.20.04.1_all.deb ...
+Unpacking libjs-underscore (1.9.1~dfsg-1ubuntu0.20.04.1) ...
+Selecting previously unselected package libjs-sphinxdoc.
+Preparing to unpack .../06-libjs-sphinxdoc_1.8.5-7ubuntu3_all.deb ...
+Unpacking libjs-sphinxdoc (1.8.5-7ubuntu3) ...
+Selecting previously unselected package php7.4-bz2.
+Preparing to unpack .../07-php7.4-bz2_7.4.3-4ubuntu2.24_amd64.deb ...
+Unpacking php7.4-bz2 (7.4.3-4ubuntu2.24) ...
+Selecting previously unselected package php-bz2.
+Preparing to unpack .../08-php-bz2_2%3a7.4+75_all.deb ...
+Unpacking php-bz2 (2:7.4+75) ...
+Selecting previously unselected package php7.4-gd.
+Preparing to unpack .../09-php7.4-gd_7.4.3-4ubuntu2.24_amd64.deb ...
+Unpacking php7.4-gd (7.4.3-4ubuntu2.24) ...
+Selecting previously unselected package php-gd.
+Preparing to unpack .../10-php-gd_2%3a7.4+75_all.deb ...
+Unpacking php-gd (2:7.4+75) ...
+Selecting previously unselected package php-google-recaptcha.
+Preparing to unpack .../11-php-google-recaptcha_1.2.3-1_all.deb ...
+Unpacking php-google-recaptcha (1.2.3-1) ...
+Selecting previously unselected package php-psr-cache.
+Preparing to unpack .../12-php-psr-cache_1.0.1-2_all.deb ...
+Unpacking php-psr-cache (1.0.1-2) ...
+Selecting previously unselected package php-psr-log.
+Preparing to unpack .../13-php-psr-log_1.1.2-1_all.deb ...
+Unpacking php-psr-log (1.1.2-1) ...
+Selecting previously unselected package php-symfony-cache-contracts.
+Preparing to unpack .../14-php-symfony-cache-contracts_1.1.8-1_all.deb ...
+Unpacking php-symfony-cache-contracts (1.1.8-1) ...
+Selecting previously unselected package php-psr-container.
+Preparing to unpack .../15-php-psr-container_1.0.0-2_all.deb ...
+Unpacking php-psr-container (1.0.0-2) ...
+Selecting previously unselected package php-symfony-service-contracts.
+Preparing to unpack .../16-php-symfony-service-contracts_1.1.8-1_all.deb ...
+Unpacking php-symfony-service-contracts (1.1.8-1) ...
+Selecting previously unselected package php-symfony-var-exporter.
+Preparing to unpack .../17-php-symfony-var-exporter_4.3.8+dfsg-1ubuntu1_all.deb ...
+Unpacking php-symfony-var-exporter (4.3.8+dfsg-1ubuntu1) ...
+Selecting previously unselected package php-symfony-cache.
+Preparing to unpack .../18-php-symfony-cache_4.3.8+dfsg-1ubuntu1_all.deb ...
+Unpacking php-symfony-cache (4.3.8+dfsg-1ubuntu1) ...
+Selecting previously unselected package php-symfony-expression-language.
+Preparing to unpack .../19-php-symfony-expression-language_4.3.8+dfsg-1ubuntu1_all.deb ...
+Unpacking php-symfony-expression-language (4.3.8+dfsg-1ubuntu1) ...
+Selecting previously unselected package php-phpmyadmin-motranslator.
+Preparing to unpack .../20-php-phpmyadmin-motranslator_5.0.0-1_all.deb ...
+Unpacking php-phpmyadmin-motranslator (5.0.0-1) ...
+Selecting previously unselected package php-phpmyadmin-shapefile.
+Preparing to unpack .../21-php-phpmyadmin-shapefile_2.1-3_all.deb ...
+Unpacking php-phpmyadmin-shapefile (2.1-3) ...
+Selecting previously unselected package php-phpmyadmin-sql-parser.
+Preparing to unpack .../22-php-phpmyadmin-sql-parser_4.6.1-2_all.deb ...
+Unpacking php-phpmyadmin-sql-parser (4.6.1-2) ...
+Selecting previously unselected package php-phpseclib.
+Preparing to unpack .../23-php-phpseclib_2.0.23-2_all.deb ...
+Unpacking php-phpseclib (2.0.23-2) ...
+Selecting previously unselected package php-tcpdf.
+Preparing to unpack .../24-php-tcpdf_6.3.5+dfsg1-1_all.deb ...
+Unpacking php-tcpdf (6.3.5+dfsg1-1) ...
+Selecting previously unselected package php-twig.
+Preparing to unpack .../25-php-twig_2.12.5-1_all.deb ...
+Unpacking php-twig (2.12.5-1) ...
+Selecting previously unselected package php-twig-extensions.
+Preparing to unpack .../26-php-twig-extensions_1.5.4-1_all.deb ...
+Unpacking php-twig-extensions (1.5.4-1) ...
+Selecting previously unselected package php7.4-xml.
+Preparing to unpack .../27-php7.4-xml_7.4.3-4ubuntu2.24_amd64.deb ...
+Unpacking php7.4-xml (7.4.3-4ubuntu2.24) ...
+Selecting previously unselected package php-xml.
+Preparing to unpack .../28-php-xml_2%3a7.4+75_all.deb ...
+Unpacking php-xml (2:7.4+75) ...
+Selecting previously unselected package libjs-openlayers.
+Preparing to unpack .../29-libjs-openlayers_2.13.1+ds2-7_all.deb ...
+Unpacking libjs-openlayers (2.13.1+ds2-7) ...
+Selecting previously unselected package phpmyadmin.
+Preparing to unpack .../30-phpmyadmin_4%3a4.9.5+dfsg1-2_all.deb ...
+Unpacking phpmyadmin (4:4.9.5+dfsg1-2) ...
+Setting up javascript-common (11) ...
+apache2_invoke: Enable configuration javascript-common
+Setting up php7.4-xml (7.4.3-4ubuntu2.24) ...
+
+Creating config file /etc/php/7.4/mods-available/dom.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/simplexml.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/xml.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/xmlreader.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/xmlwriter.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/xsl.ini with new version
+Setting up php-phpmyadmin-shapefile (2.1-3) ...
+Setting up php-psr-container (1.0.0-2) ...
+Setting up php-symfony-service-contracts (1.1.8-1) ...
+Setting up php7.4-bz2 (7.4.3-4ubuntu2.24) ...
+
+Creating config file /etc/php/7.4/mods-available/bz2.ini with new version
+Setting up dbconfig-common (2.0.13) ...
+
+Creating config file /etc/dbconfig-common/config with new version
+Setting up php-phpseclib (2.0.23-2) ...
+Setting up icc-profiles-free (2.0.1+dfsg-1) ...
+Setting up php-psr-cache (1.0.1-2) ...
+Setting up php-phpmyadmin-sql-parser (4.6.1-2) ...
+Setting up php-twig (2.12.5-1) ...
+Setting up php-psr-log (1.1.2-1) ...
+Setting up php-twig-extensions (1.5.4-1) ...
+Setting up libjs-openlayers (2.13.1+ds2-7) ...
+Setting up php-google-recaptcha (1.2.3-1) ...
+Setting up php-symfony-var-exporter (4.3.8+dfsg-1ubuntu1) ...
+Setting up libjs-jquery (3.3.1~dfsg-3) ...
+Setting up php7.4-gd (7.4.3-4ubuntu2.24) ...
+
+Creating config file /etc/php/7.4/mods-available/gd.ini with new version
+Setting up libjs-underscore (1.9.1~dfsg-1ubuntu0.20.04.1) ...
+Setting up php-xml (2:7.4+75) ...
+Setting up php-symfony-cache-contracts (1.1.8-1) ...
+Setting up php-tcpdf (6.3.5+dfsg1-1) ...
+Setting up php-bz2 (2:7.4+75) ...
+Setting up dbconfig-mysql (2.0.13) ...
+Setting up php-symfony-cache (4.3.8+dfsg-1ubuntu1) ...
+Setting up php-symfony-expression-language (4.3.8+dfsg-1ubuntu1) ...
+Setting up libjs-sphinxdoc (1.8.5-7ubuntu3) ...
+Setting up php-gd (2:7.4+75) ...
+Setting up php-phpmyadmin-motranslator (5.0.0-1) ...
+Setting up phpmyadmin (4:4.9.5+dfsg1-2) ...
+Determining localhost credentials from /etc/mysql/debian.cnf: succeeded.
+dbconfig-common: writing config to /etc/dbconfig-common/phpmyadmin.conf
+
+Creating config file /etc/dbconfig-common/phpmyadmin.conf with new version
+
+Creating config file /etc/phpmyadmin/config-db.php with new version
+checking privileges on database phpmyadmin for phpmyadmin@localhost: user creation needed.
+granting access to database phpmyadmin for phpmyadmin@localhost: success.
+verifying access for phpmyadmin@localhost: success.
+creating database phpmyadmin: success.
+verifying database phpmyadmin exists: success.
+populating database via sql...  done.
+dbconfig-common: flushing administrative password
+Processing triggers for libapache2-mod-php7.4 (7.4.3-4ubuntu2.24) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for php7.4-cli (7.4.3-4ubuntu2.24) ...
+root@lebahieu22ns018:/home/ubuntu# systemctl restart apache2
+root@lebahieu22ns018:/home/ubuntu# ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
+root@lebahieu22ns018:/home/ubuntu# a2enconf phpmyadmin
+Enabling conf phpmyadmin.
+To activate the new configuration, you need to run:
+  systemctl reload apache2
+root@lebahieu22ns018:/home/ubuntu# systemctl reload apahce2
+Failed to reload apahce2.service: Unit apahce2.service not found.
+root@lebahieu22ns018:/home/ubuntu# systemctl reload apache2
+root@lebahieu22ns018:/home/ubuntu# systemctl restart apache2
+root@lebahieu22ns018:/home/ubuntu# mysql
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 28
+Server version: 8.0.40-0ubuntu0.20.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2024, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type &apos;help;&apos; or &apos;\h&apos; for help. Type &apos;\c&apos; to clear the current input statement.
+
+mysql&gt; CREATE USER &apos;lbh&apos;@&apos;localhost&apos; IDENTIFIED BY &apos;123&apos;;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql&gt; GRANT ALL PRIVILEGES ON *.* TO &apos;lbh&apos;@&apos;localhost&apos; WITH GRANT OPTION;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql&gt; FLUSH PRIVILEGES
+    -&gt; EXIT
+    -&gt; 
+[6]+  Stopped                 mysql
+root@lebahieu22ns018:/home/ubuntu# mysql
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 29
+Server version: 8.0.40-0ubuntu0.20.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2024, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type &apos;help;&apos; or &apos;\h&apos; for help. Type &apos;\c&apos; to clear the current input statement.
+
+mysql&gt; FLUSH PRIVILEGES
+    -&gt; 
+[7]+  Stopped                 mysql
+root@lebahieu22ns018:/home/ubuntu# nano /var/www/php/config.php
+
+
+Use &quot;fg&quot; to return to nano.
+
+[8]+  Stopped                 nano /var/www/php/config.php
+root@lebahieu22ns018:/home/ubuntu# nano /var/www/chatapp/php/config.php
+
+
+Use &quot;fg&quot; to return to nano.
+
+[9]+  Stopped                 nano /var/www/chatapp/php/config.php
+root@lebahieu22ns018:/home/ubuntu# 
+root@lebahieu22ns018:/home/ubuntu# systemctl status mysql
+<font color="#4E9A06"><b>●</b></font> mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+     Active: <font color="#4E9A06"><b>active (running)</b></font> since Thu 2024-11-14 15:46:26 EST; 17min ago
+   Main PID: 17879 (mysqld)
+     Status: &quot;Server is operational&quot;
+      Tasks: 42 (limit: 4583)
+     Memory: 397.8M
+     CGroup: /system.slice/mysql.service
+             └─17879 /usr/sbin/mysqld
+
+Nov 14 15:46:25 lebahieu22ns018 systemd[1]: Starting MySQL Community Server...
+Nov 14 15:46:26 lebahieu22ns018 systemd[1]: Started MySQL Community Server.
+root@lebahieu22ns018:/home/ubuntu# nano /etc/mysql/mysql.conf.d/mysqld.cnf
+
+
+Use &quot;fg&quot; to return to nano.
+
+[10]+  Stopped                 nano /etc/mysql/mysql.conf.d/mysqld.cnf
+root@lebahieu22ns018:/home/ubuntu# nano /etc/mysql/mysql.conf.d/mysqld.cnf
+
+
+Use &quot;fg&quot; to return to nano.
+
+[11]+  Stopped                 nano /etc/mysql/mysql.conf.d/mysqld.cnf
+root@lebahieu22ns018:/home/ubuntu# 
+</pre>
